@@ -1,0 +1,48 @@
+/* grid defintions for project cards*/
+.project-container {
+  align-items: center;
+  max-width: clamp(10rem, 40rem + 3vw, 50rem);
+  display: grid;
+  grid-template-rows: repeat(2);
+  overflow: auto;
+  margin: 5px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(181, 186, 191);
+}
+.project-image img{
+  max-width: 100%;
+  grid-row-start: 1;
+  display: grid;
+  width:100%;
+  border-radius: 5px;
+}
+.project-body {
+  grid-row-start: 2;
+  display:table;
+  margin: 2rem 2rem 2rem 2rem;
+  background-color: white;
+}
+.project-body #title {
+  font-weight: bold;
+  vertical-align: text-top;
+  text-decoration-style: double;
+  text-transform: capitalize;
+  font-family: 'Righteous', sans-serif;
+  font-size: clamp(.20rem, 1rem + 1.4vw, 3rem);
+
+}
+.project-body #subject{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: clamp(.20rem, 1rem + .1vw, 3rem);
+  
+}
+
+.project-body #link {
+
+  vertical-align: bottom;
+  margin: 30px 0px 3px 3px;
+  color: blue;
+  text-decoration-line: underline;
+  font-size: clamp(.5rem, .7rem + 1vw, 2rem);
+}
