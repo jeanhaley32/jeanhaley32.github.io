@@ -104,9 +104,9 @@ a {
   box-shadow: 0px 0px 10px rgb(181, 186, 191);
 }
 
-/* grid defintions for project cards*/
+/* grid definitions for project cards*/
 .project-container {
-  background-color: white;
+  background-color: red;
   align-items: center;
   max-width: clamp(10rem, 40rem + 1vw, 50rem);
   max-height: auto;
