@@ -92,6 +92,9 @@ a {
   justify-content: stretch; /* potentially no reason to do this */
   width: clamp(15rem, 30px + 60vw, 55rem);
 }
+.grid-container projects {
+  grid-template-columns: 1fr 1fr; /* Display Projects across two columns. */
+}
 .grid-item {
   background-color: #fffefe;
   margin: 10px;
@@ -111,7 +114,6 @@ a {
   max-width: clamp(10rem, 40rem + 1vw, 50rem);
   max-height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr; /*Create two columns of equal width */
   grid-template-rows: repeat(.8fr, 1fr);
   overflow: auto;
   margin: 5px auto;
@@ -128,7 +130,7 @@ a {
 }
 .project-body {
   grid-row-start: 2;
-  display:table;
+  display: table;
   margin: 2rem 2rem 2rem 2rem;
   background-color: white;
 }
