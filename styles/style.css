@@ -137,7 +137,7 @@ a {
   margin: 2rem 2rem 2rem 2rem;
   background-color: white;
 }
-.project-body #title {
+#title.project-body {
   font-weight: bold;
   vertical-align: text-top;
   text-transform: capitalize;
@@ -145,13 +145,13 @@ a {
   font-size: clamp(.20rem, 1rem + 1.4vw, 3rem);
 
 }
-.project-body #subject{
+#subject.project-body {
   margin-left: 3rem;
   margin-right: 3rem;
   font-size: clamp(.20rem, 1rem + .1vw, 3rem);
   text-align: left;
 }
-.project-body #link {
+.#link.project-body {
   text-align: left;
   vertical-align: bottom;
   margin: 30px 0px 3px 3px;
