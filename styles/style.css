@@ -85,12 +85,14 @@ a {
 /* Grid Classes */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat (1fr, 1fr); /* Creates 3 equal-width columns */
   grid-gap: 3rem; /* Space between the grid items */
   width: 100%;
   margin: 5px auto;
   justify-content: stretch; /* potentially no reason to do this */
   width: clamp(15rem, 30px + 60vw, 55rem);
+}
+.grid-container experience{
+  grid-template-columns: 1fr
 }
 .grid-container projects {
   grid-template-columns: 1fr 1fr; /* Display Projects across two columns. */
