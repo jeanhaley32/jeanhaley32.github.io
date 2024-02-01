@@ -91,10 +91,10 @@ a {
   justify-content: stretch; /* potentially no reason to do this */
   width: clamp(15rem, 30px + 60vw, 55rem);
 }
-.grid-container experience{
+#experience.grid-container{
   grid-template-columns: 1fr
 }
-.grid-container projects {
+#projects.grid-container{
   grid-template-columns: 1fr 1fr; /* Display Projects across two columns. */
 }
 .grid-item {
