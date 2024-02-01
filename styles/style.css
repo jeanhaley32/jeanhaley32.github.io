@@ -111,7 +111,7 @@ a {
 
 /* grid definitions for project cards*/
 .project-container {
-  background-color: red;
+  background-color: white;
   align-items: center;
   max-width: clamp(10rem, 40rem + 1vw, 50rem);
   max-height: auto;
