@@ -111,6 +111,7 @@ a {
   max-width: clamp(10rem, 40rem + 1vw, 50rem);
   max-height: auto;
   display: grid;
+  grid-template-columns: 1fr 1fr; /*Create two columns of equal width */
   grid-template-rows: repeat(.8fr, 1fr);
   overflow: auto;
   margin: 5px auto;
