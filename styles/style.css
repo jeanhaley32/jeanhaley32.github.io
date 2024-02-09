@@ -86,17 +86,21 @@ a {
 .grid-container {
   display: grid;
   grid-gap: 3rem; /* Space between the grid items */
-  width: 100%;
   margin: 5px auto;
   justify-content: stretch; /* potentially no reason to do this */
-  width: clamp(15rem, 30px + 60vw, 55rem);
+  width: clamp(80rem, 30px + 60vw, 55rem);
+  grid-template-columns: 1fr 1fr;
 }
-#experience.grid-container{
+
+/* uncomment for experience section-specific changes */
+#experience.grid-container{ 
   grid-template-columns: 1fr
 }
-#projects.grid-container{
-  grid-template-columns: 1fr 1fr; /* Display Projects across two columns. */
-}
+
+/* uncomment for projects section-specific changes 
+/* #projects.grid-container{
+} */
+
 .grid-item {
   background-color: #fffefe;
   margin: 10px;
