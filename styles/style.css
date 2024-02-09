@@ -88,7 +88,7 @@ a {
   grid-gap: 3rem; /* Space between the grid items */
   margin: 5px auto;
   justify-content: stretch; /* potentially no reason to do this */
-  width: clamp(80rem, 30px + 60vw, 55rem);
+  width: clamp(15rem, 30px + 60vw, 80rem);
   grid-template-columns: 1fr 1fr;
 }
 
