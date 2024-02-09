@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-  font-size: clamp(.5rem, 2vw, 1rem);
+  font-size: clamp(.5rem, 2vw, 1.20rem);
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
