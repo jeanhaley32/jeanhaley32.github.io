@@ -4,7 +4,7 @@
   <head>
     <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body class="containter">
+  <body>
     <div id="header" class="container">
       <img id="profile-image" src="images/jean.jpeg" alt="Profile Picture">
       <pre id="contained-ascii">
@@ -39,7 +39,7 @@
 
     <h3> Programming Languages: Go, Python, BASH </h3>
 
-    
+    <!--Experience Start-->
     <h2 id="section"> Experience: </h2>
     <div id="experience" class="grid-container">
     <div  class="experience-container">
@@ -58,52 +58,103 @@
       <div class="grid-item">Responsibility 3 </div>
       </div>
     </div></div>
+    <!--Experience End-->
 
+    <!--Carousel Start-->
     <h2 id="section"> Projects: </h2>
-
     <div id="projects" class="grid-container">
-      
-      <div class="project-container">
-        <div class="project-image"> 
-          <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slides">
+          <div id="slides__1" class="slide">
+          <span class="slide__text">
+            <div class="project-container">
+              <div class="project-image"> 
+                <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
+              </div>
+              <div class="project-body">
+                <h id="title">project</h>
+                <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
+                  at.</p1> 
+                <p id="link">link</p>
+              </div>
+            </div>
+            </span>
+            <a class="slide__prev" href="#slides__4" title="Next"></a>
+            <a class="slide__next" href="#slides__2" title="Next"></a>
+          </div>
+          <div id="slides__2" class="slide">
+            <span class="slide__text">
+            <div class="project-container">
+              <div class="project-image"> 
+                <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
+              </div>
+              <div class="project-body">
+                <h id="title">project</h>
+                <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
+                  at.</p1> 
+                <p id="link">link</p>
+              </div>
+            </div>
+            </span>
+            <a class="slide__prev" href="#slides__1" title="Prev"></a>
+            <a class="slide__next" href="#slides__3" title="Next"></a>
+          </div>
+          <div id="slides__3" class="slide">
+            <span class="slide__text">
+            <div class="project-container">
+              <div class="project-image"> 
+                <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
+              </div>
+              <div class="project-body">
+                <h id="title">project</h>
+                <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
+                  at.</p1> 
+                <p id="link">link</p>
+              </div>
+            </div>
+            </span>
+            <a class="slide__prev" href="#slides__2" title="Prev"></a>
+            <a class="slide__next" href="#slides__4" title="Next"></a>
+          </div>
+          <div id="slides__4" class="slide">
+            <span class="slide__text">
+            <div class="project-container">
+              <div class="project-image"> 
+                <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
+              </div>
+              <div class="project-body">
+                <h id="title">project</h>
+                <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
+                  at.</p1> 
+                <p id="link">link</p>
+              </div>
+            </div>
+            </span>
+            <a class="slide__prev" href="#slides__3" title="Prev"></a>
+            <a class="slide__next" href="#slides__1" title="Prev"></a>
+          </div>
         </div>
-        <div class="project-body">
-          <h id="title">project</h>
-          <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
-            at.</p1> 
-          <p id="link">link</p>
-        </div>
-      </div>
-      
-      <div class="project-container">
-        <div class="project-image"> 
-          <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
-        </div>
-        <div class="project-body">
-          <h id="title">project 2</h>
-          <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
-            at.</p1> 
-          <p id="link">link</p>
-        </div>
-      </div>
-
-      <div class="project-container">
-        <div class="project-image"> 
-          <img id="profile-image" src="images/client.gif" alt="Profile Picture"></img>
-        </div>
-        <div class="project-body">
-          <h id="title">project 3</h>
-          <p id="subject"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Auctor urna nunc id cursus. Eu augue ut lectus arcu bibendum 
-            at.</p1> 
-          <p id="link">link</p>
+        <div class="slider__nav">
+          <a class="slider__navlink" href="#slides__1"></a>
+          <a class="slider__navlink" href="#slides__2"></a>
+          <a class="slider__navlink" href="#slides__3"></a>
+          <a class="slider__navlink" href="#slides__4"></a>
         </div>
       </div>
     </div>
+  </div>
+    
+    <a href="https://alvarotrigo.com/blog/create-a-slider-with-pure-CSS/" target="_blank" class="read-article">
+      Read the article 👉
+    </a>
+    <!--Carousel End-->
 
-
+    <!--Contact Start-->
     <h2 id="section"> Contact </h2>
       <p>
         Feel free to contact me at <a href="mailto:jean@haley.nyc">jean@haley.nyc</a> or follow me on: 
@@ -112,5 +163,7 @@
       </p>
       <p>Thank you for visiting my page!</p>
     </div>
+    <!--Contact End-->
+
   </body>
 </html>
