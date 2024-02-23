@@ -31,7 +31,6 @@ p {
 /* Links */
 a {
   color: hsl(205, 58%, 44%);
-  font-size: clamp(.5rem, 2vw, 1rem);
   text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
 }
